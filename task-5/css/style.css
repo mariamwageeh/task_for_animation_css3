@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.forword{
+    animation-name: change;
+    animation-duration: 5s;
+    display: block;
+    position: absolute;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+opacity: 0;
+top:0;
+}
+img{
+    border-radius: 22px;
+}
+@keyframes change{
+    0%{
+margin-left: 0%;
+
+/* transform: rotateY(0deg); */
+
+    }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+       opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+       opacity: 0.9;
+    }
+    100%{
+       margin-left: 88%;
+opacity: 1;
+    }
+}
+.forword:hover{
+    animation-play-state: paused;
+}
+/* //////////////////////////////////////////////////////////////////////// */
+.way{
+    margin-top: 150px;
+}
+/* .way img{
+    border-radius: 0px;
+} */
+/* /////////////////////////////////////////////// */
+.back{
+    animation-name: changes;
+    animation-duration: 5s;
+    position: absolute;
+animation-timing-function: linear;
+animation-fill-mode:forwards ;
+top:225px;
+
+opacity: 0;
+/* transform: rotateY(180deg); */
+animation-delay: 5s;
+}
+@keyframes changes{
+    0%{
+        margin-left: 85%;
+
+    }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
+    50%{
+       opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.7;
+    }
+    80%{
+        opacity: 0.8;
+    }
+    90%{
+       opacity: 0.9;
+    }
+    100%{
+        margin-left: 0%;
+        opacity: 1;
+    }
+
+}
+.back:hover{
+    animation-play-state: paused;
+}
+.way1{
+    margin-top: 170px;
+}
+/* //////////////////////////////////////////////// */
+.forword1{
+    animation-name: change1;
+    animation-duration: 5s;
+    position: absolute;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+top: 477px;
+animation-delay: 10s;
+opacity: 0;
+}
+@keyframes change1{
+    0%{
+        margin-left: 0%;
+        /* transform: rotateY(0deg); */
+        
+            }
+            10%{
+                opacity: 0.1;
+            }
+            20%{
+                opacity: 0.2;
+            }
+            30%{
+                opacity: 0.3;
+            }
+            40%{
+                opacity: 0.4;
+            }
+            50%{
+               opacity: 0.5;
+            }
+            60%{
+                opacity: 0.6;
+            }
+            70%{
+                opacity: 0.7;
+            }
+            80%{
+                opacity: 0.8;
+            }
+            90%{
+               opacity: 0.9;
+            }
+            100%{
+               margin-left: 88%;
+        opacity: 1;
+            }
+}
+.forword1:hover{
+    animation-play-state: paused;
+}
+.way2{
+    margin-top: 200px;
+}
+/* ////////////////////////////////////////////////////////////// */
+.back1{
+    animation-name: changes1;
+    animation-duration: 5s;
+    position: absolute;
+animation-timing-function: linear;
+animation-fill-mode:forwards ;
+top:702px;
+
+opacity: 0;
+/* transform: rotateY(180deg); */
+animation-delay: 15s;
+}
+@keyframes changes1{
+    0%{
+
+        margin-left: 88%;
+            }
+            10%{
+                opacity: 0.1;
+            }
+            20%{
+                opacity: 0.2;
+            }
+            30%{
+                opacity: 0.3;
+            }
+            40%{
+                opacity: 0.4;
+            }
+            50%{
+               opacity: 0.5;
+            }
+            60%{
+                opacity: 0.6;
+            }
+            70%{
+                opacity: 0.7;
+            }
+            80%{
+                opacity: 0.8;
+            }
+            90%{
+               opacity: 0.9;
+            }
+            100%{
+                margin-left: 0%;
+                opacity: 1;
+            }
+
+}
+.back1:hover{
+    animation-play-state: paused;
+}
+.way3{
+    margin-top: 170px;
+}
+/* ///////////////////////////////////////////////////////////////////// */
+.forword2{
+    animation-name: change2;
+    animation-duration: 5s;
+    position: absolute;
+animation-timing-function: linear;
+animation-fill-mode: forwards;
+top: 955px;
+animation-delay: 20s;
+opacity: 0;
+}
+@keyframes change2{
+    0%{
+        margin-left: 0%;
+        /* transform: rotateY(0deg); */
+        
+            }
+            10%{
+                opacity: 0.1;
+            }
+            20%{
+                opacity: 0.2;
+            }
+            30%{
+                opacity: 0.3;
+            }
+            40%{
+                opacity: 0.4;
+            }
+            50%{
+               opacity: 0.5;
+            }
+            60%{
+                opacity: 0.6;
+            }
+            70%{
+                opacity: 0.7;
+            }
+            80%{
+                opacity: 0.8;
+            }
+            90%{
+               opacity: 0.9;
+            }
+            100%{
+               margin-left: 88%;
+        opacity: 1;
+            }
+}
+.forword2:hover{
+    animation-play-state: paused;
+}
+.way4{
+    margin-top: 200px;
+}
+/* ////////////////////////////////////////////////////////////// */
+.back2{
+    animation-name: changes2;
+    animation-duration: 5s;
+    position: absolute;
+animation-timing-function: linear;
+animation-fill-mode:forwards ;
+top:1180px;
+
+opacity: 0;
+/* transform: rotateY(180deg); */
+animation-delay: 25s;
+}
+@keyframes changes2{
+    0%{
+
+        margin-left: 88%;
+            }
+            10%{
+                opacity: 0.1;
+            }
+            20%{
+                opacity: 0.2;
+            }
+            30%{
+                opacity: 0.3;
+            }
+            40%{
+                opacity: 0.4;
+            }
+            50%{
+               opacity: 0.5;
+            }
+            60%{
+                opacity: 0.6;
+            }
+            70%{
+                opacity: 0.7;
+            }
+            80%{
+                opacity: 0.8;
+            }
+            90%{
+               opacity: 0.9;
+            }
+            100%{
+                margin-left: 0%;
+                opacity: 1;
+            }
+
+}
+.back2:hover{
+    animation-play-state: paused;
+}
+.way5{
+    margin-top: 170px;
+}
